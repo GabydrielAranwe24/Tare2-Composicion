@@ -17,7 +17,9 @@ public class Gato extends Animal {
 
     @Override
     public void EmitirSonido() {
-        super.EmitirSonido(); //To change body of generated methods, choose Tools | Templates.
+        super.EmitirSonido();{
+        System.out.println("Miauuuuuuuuuuuu");
+    } //To change body of generated methods, choose Tools | Templates.
     }
 
     public Gato(String raza, boolean pelaje, String tamanio, String nombre, int edad) {

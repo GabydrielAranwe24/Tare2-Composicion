@@ -78,8 +78,13 @@ public class Perro extends Animal {
         return super.toString() + "Perro{" + "raza=" + raza + ", pelaje=" + pelaje + ", peso=" + peso + ", nombre=" + nombre + ", edad=" + edad + '}';
     }
 
-    public void Sonido() {
-        System.out.println("Guauuuu");
+    @Override
+    public void EmitirSonido() {
+        super.EmitirSonido();{
+        System.out.println("Guauuuuuuuuuuuu");
+    } //To change body of generated methods, choose Tools | Templates.
     }
+
+    
 
 }

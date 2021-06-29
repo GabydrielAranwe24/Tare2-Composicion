@@ -74,11 +74,11 @@ public class Animal {
     }
 
     public void EmitirSonido() {
-        if (this.nombreColSubespecie.equals("felino")) {
+      /*  if (this.nombreColSubespecie.equals("felino")) {
             System.out.println("Miauuuuu Miauuuuu");
         } else {
             System.out.println("Guauu Guauuuu Guauu");
-        }
+        }*/
     }
 
 }
